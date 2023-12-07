@@ -62,9 +62,9 @@ Additonal info:
 Research and define the following terms. Hint: use the syllabus!
 
 1. React State:
-In React, the "state" is a built-in object that represents the mutable data specific to a component. It is used to store and manage dynamic data that can change over time as a result of user interactions, external events, or other factors. When the state of a component changes, React re-renders the component to reflect the updated state. State is managed using the useState hook in functional components or the this.state and this.setState in class components.
-Example (functional component with useState):
+ used to store and manage dynamic data that can change over time as a result of user interactions, external events, or other factors. When the state of a component changes, React re-renders the component to reflect the updated state. State is managed using the useState hook in functional components or the this.state and this.setState in class components.
+
 2. React Props:
-"Props" is short for properties, and in React, it refers to the mechanism for passing data from a parent component to a child component. Props allow components to communicate and share information. They are passed as attributes to a component in JSX and are accessed within the component as properties of the props object. Props are immutable, meaning that a child component cannot modify the values it receives through props.
+Short for properties, refers to the mechanism for passing data from a parent component to a child component. Props allow components to communicate and share information. They are passed as attributes to a component in JSX and are accessed within the component as properties of the props object. Props are immutable, meaning that a child component cannot modify the values it receives through props.
 3. JSX:
-JSX (JavaScript XML) is a syntax extension for JavaScript recommended by React for describing what the UI should look like. It looks similar to XML or HTML and allows you to write HTML-like code in JavaScript files. JSX is not a separate language but a syntactic sugar that gets transpiled into regular JavaScript. It makes the creation of React elements more concise and readable.
+JSX stands for JavaScript XML and is a syntax extension for JavaScript recommended by React for describing what the UserInterface should look like. It looks similar to HTML(or XML?) and allows programmers to write HTML-like code in JavaScript files. JSX is not a separate language but a syntactic extra that gets transpiled into regular JavaScript. It makes the creation of React elements more concise and readable.
